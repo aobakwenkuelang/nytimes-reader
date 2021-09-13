@@ -1,8 +1,8 @@
-import React, {Component, useState, useEffect} from 'react';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Input, Label, NavLink, Row, Breadcrumb, BreadcrumbItem} from 'reactstrap';
-// import { fetchArticles } from '../redux/ActionCreators';
+import React from 'react';
+import { Breadcrumb, BreadcrumbItem} from 'reactstrap';
+
 import { Link } from 'react-router-dom';
-// lose this and use async fetch call , just using this for testing
+
 
 import { articleData } from '../shared/articlesTest';
 import {imgUrl} from '../redux/ActionCreators';
@@ -11,28 +11,7 @@ import {imgUrl} from '../redux/ActionCreators';
 
 const DetailComponent = () => {
 
-    // const [articleList, setArticles] = useState([])
-    // const [isLoading, setIsLoading] = useState(true)
 
-    // useEffect(() => {
-    //     const fetchArticles = async () => {
-    //     try {
-          
-    //         const response = await fetch(
-    //           `https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=${process.env.REACT_APP_NYTIMES_READER_API_KEY}`
-    //           )
-    //           const articleList = await response.json()
-              
-    //           setArticles(articleList.results) 
-              
-              
-    //     } catch(error) {
-    //       console.error(error)
-    //     }
-    //   }
-    //     fetchArticles()
-    //   }, [])
-    
     
     return (
         <div>
