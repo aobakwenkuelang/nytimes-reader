@@ -1,0 +1,1 @@
+export const baseUrl = 'https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=KAKA3q3N21oahN3JiQh44xVSEvqmiXBQ';
